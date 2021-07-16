@@ -35,7 +35,7 @@ def processJSON():
                 l = 28
     else:
         l = 30
-    if(d>l and m>12):
+    if(d>l or m>12):
         response+="<b>Enter Correct date </b><br>"
     else:
         if d < l:
